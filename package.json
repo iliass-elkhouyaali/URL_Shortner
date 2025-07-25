@@ -1,7 +1,6 @@
 {
-  "name": "nodejs",
+  "name": "request-header-parser-microservice",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "express": "^5.1.0",
+    "path": "^0.12.7"
   }
 }
